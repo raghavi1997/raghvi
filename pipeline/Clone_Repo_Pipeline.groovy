@@ -1,4 +1,4 @@
-node(master) {
+node('master') {
 	stage ('Clone Repository'){
 		checkout([$class: 'GitSCM', 
 		branches: [[name: GitBrch]], 

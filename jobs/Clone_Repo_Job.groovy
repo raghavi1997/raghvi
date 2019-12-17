@@ -1,4 +1,4 @@
-pipelineJob('seed-job') {
+pipelineJob('seed-job-pipline') {
 	description ('Seed Nob for All Jobs')
 	logRotator(-1,-1)
 	parameters {

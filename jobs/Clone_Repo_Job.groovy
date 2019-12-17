@@ -8,7 +8,7 @@ pipelineJob('seed-job') {
 	}
 	definition {
 		cps {
-			script(readFileFromWorkspace('pipeline/Clone-Repo-Pipeline.groovy'))
+			script(readFileFromWorkspace('pipeline/Clone_Repo_Pipeline.groovy'))
 		}
 	}
 }
